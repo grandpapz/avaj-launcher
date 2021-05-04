@@ -1,3 +1,10 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+*.class
+*.log
+*.jar
+*.zip
+*.war
+*.rar
+*.tar.gz
+*.xml
+*.iml
+avaj-launcher/.idea
