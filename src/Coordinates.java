@@ -1,5 +1,3 @@
-package ru.school21.lelida.avaj_launcher;
-
 public class Coordinates{
     private int longitude;
     private int latitude;
