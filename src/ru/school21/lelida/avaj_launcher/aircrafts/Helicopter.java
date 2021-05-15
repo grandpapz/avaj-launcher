@@ -40,7 +40,7 @@ public class Helicopter extends Aircraft implements Flyable {
 
         Simulator.printer.println("Helicopter#" + this.name + "(" + this.id + "):" + message.get(currentWeather));
         if (this.coordinates.getHeight() <= 0){
-            Simulator.printer.println("Helicopter#" + this.name + "(" + this.id + "): grounded");
+            Simulator.printer.println("Helicopter#" + this.name + "(" + this.id + ") landing");
             this.weatherTower.unregister(this);
             Simulator.printer.println("Tower says: Helicopter#" + this.name + "(" + this.id + ")" + "unregistered to weather tower.");
         }
