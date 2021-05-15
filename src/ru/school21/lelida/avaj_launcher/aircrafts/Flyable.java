@@ -1,4 +1,6 @@
-package ru.school21.lelida.avaj_launcher;
+package ru.school21.lelida.avaj_launcher.aircrafts;
+
+import ru.school21.lelida.avaj_launcher.WeatherTower;
 
 /* All interface methotds public by default */
 

@@ -1,6 +1,7 @@
-package ru.school21.lelida.avaj_launcher;
+package ru.school21.lelida.avaj_launcher.aircrafts;
 
 public class Coordinates{
+
     private int longitude;
     private int latitude;
     private int height;

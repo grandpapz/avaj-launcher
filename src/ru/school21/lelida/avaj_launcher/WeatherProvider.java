@@ -1,16 +1,21 @@
 package ru.school21.lelida.avaj_launcher;
 
-import java.util.ArrayList;
+import ru.school21.lelida.avaj_launcher.aircrafts.Coordinates;
+
+/*This Class realize "Singletone" pattern */
 
 public class WeatherProvider {
 
-    private static WeatherProvider weatherProvider = new WeatherProvider();
-    private static String[] weather = {"RAIN", "FOG", "SUN", "SNOW"};
+    private static WeatherProvider weatherProvider;
+    private static String[] weather = {"SUN", "RAIN", "FOG", "SNOW"};
 
     private WeatherProvider(){}
 
-    public WeatherProvider getProvider(){
-        return WeatherProvider.weatherProvider;
+    public static WeatherProvider getProvider(){
+        if (weatherProvider == null){
+            weatherProvider = new WeatherProvider();
+        }
+        return weatherProvider;
     }
 
     public String getCurrentWeather(Coordinates coordinates){
