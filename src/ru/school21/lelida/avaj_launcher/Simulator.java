@@ -1,22 +1,25 @@
 package ru.school21.lelida.avaj_launcher;
 
 import java.io.*;
-//Need to think about some file Validation and make own Exceptions
+
 public class Simulator {
     public static PrintWriter printer;
     static int counter;
 
     public static void main(String[] args) throws IOException {
-        WeatherTower weatherTower = new WeatherTower();
         if (args.length != 1)
             return;
+        //BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        try {
+            Validator validator = new Validator(args[0]);
+        } catch (AvajExeptions avajExeptions) {
+            System.out.println("\u001B[34m" + "Validator says: "+ avajExeptions.getMessage());
+            return;
+        }
+
+        WeatherTower weatherTower = new WeatherTower();
         String input = args[0];
         printer = new PrintWriter("simulation.txt");
-
-
-        //Some Validation here;
-
-
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(input)));
         counter = Integer.parseInt(bufferedReader.readLine());
         if (counter <= 0)
