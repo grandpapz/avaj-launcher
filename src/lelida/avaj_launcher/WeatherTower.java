@@ -1,6 +1,6 @@
-package ru.school21.lelida.avaj_launcher;
+package lelida.avaj_launcher;
 
-import ru.school21.lelida.avaj_launcher.aircrafts.Coordinates;
+import lelida.avaj_launcher.aircraft.Coordinates;
 
 public class WeatherTower extends Tower{
 

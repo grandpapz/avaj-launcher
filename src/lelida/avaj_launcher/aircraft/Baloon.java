@@ -1,7 +1,7 @@
-package ru.school21.lelida.avaj_launcher.aircrafts;
+package lelida.avaj_launcher.aircraft;
 
-import ru.school21.lelida.avaj_launcher.Simulator;
-import ru.school21.lelida.avaj_launcher.WeatherTower;
+import lelida.avaj_launcher.Simulator;
+import lelida.avaj_launcher.WeatherTower;
 
 import java.util.HashMap;
 
@@ -43,7 +43,7 @@ public class Baloon extends Aircraft implements Flyable {
         if (this.coordinates.getHeight() <= 0){
             Simulator.printer.println("Baloon#" + this.name + "(" + this.id + ") landing.");
             this.weatherTower.unregister(this);
-            Simulator.printer.println("Tower says: Baloon#" + this.name + "(" + this.id + ")" + "unregistered to weather tower.");
+            Simulator.printer.println("Tower says: Baloon#" + this.name + "(" + this.id + ")" + " unregistered to weather tower.");
         }
     }
 
@@ -51,6 +51,6 @@ public class Baloon extends Aircraft implements Flyable {
     public void registerTower(WeatherTower weatherTower) {
         this.weatherTower = weatherTower;
         this.weatherTower.register(this);
-        Simulator.printer.println("Tower says: Baloon#" + this.name + "(" + this.id + ")" + "registered to weather tower.");
+        Simulator.printer.println("Tower says: Baloon#" + this.name + "(" + this.id + ")" + " registered to weather tower.");
     }
 }

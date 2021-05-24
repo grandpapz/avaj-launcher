@@ -1,4 +1,4 @@
-package ru.school21.lelida.avaj_launcher;
+package lelida.avaj_launcher;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

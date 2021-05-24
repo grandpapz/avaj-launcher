@@ -1,8 +1,8 @@
-package ru.school21.lelida.avaj_launcher.aircrafts;
-
-import ru.school21.lelida.avaj_launcher.WeatherTower;
+package lelida.avaj_launcher.aircraft;
 
 /* All interface methotds public by default */
+
+import lelida.avaj_launcher.WeatherTower;
 
 public interface Flyable {
     void updateConditions();

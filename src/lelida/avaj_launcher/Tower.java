@@ -1,6 +1,7 @@
-package ru.school21.lelida.avaj_launcher;
+package lelida.avaj_launcher;
 
-import ru.school21.lelida.avaj_launcher.aircrafts.Flyable;
+import lelida.avaj_launcher.aircraft.Flyable;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,8 +20,8 @@ public class Tower {
     }
 
     protected void conditionsChanged(){
-        for (Flyable observer : observers){
-            observer.updateConditions();
+        for (int i = 0; i < observers.size(); i++){
+            observers.get(i).updateConditions();
         }
     }
 }

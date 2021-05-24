@@ -1,8 +1,8 @@
-package ru.school21.lelida.avaj_launcher;
-
-import ru.school21.lelida.avaj_launcher.aircrafts.Coordinates;
+package lelida.avaj_launcher;
 
 /*This Class realize "Singletone" pattern */
+
+import lelida.avaj_launcher.aircraft.Coordinates;
 
 public class WeatherProvider {
 

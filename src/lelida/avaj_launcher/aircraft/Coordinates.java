@@ -1,4 +1,4 @@
-package ru.school21.lelida.avaj_launcher.aircrafts;
+package lelida.avaj_launcher.aircraft;
 
 public class Coordinates{
 

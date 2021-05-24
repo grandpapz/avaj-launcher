@@ -1,4 +1,6 @@
-package ru.school21.lelida.avaj_launcher;
+package lelida.avaj_launcher;
+
+import lelida.avaj_launcher.aircraft.AircraftFactory;
 
 import java.io.*;
 
@@ -18,6 +20,7 @@ public class Simulator {
         }
         try {
             WeatherTower weatherTower = new WeatherTower();
+            AircraftFactory aircraftFactory = new AircraftFactory();
             String input = args[0];
             printer = new PrintWriter("simulation.txt");
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(input)));
@@ -25,18 +28,20 @@ public class Simulator {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 String[] split = line.split(" ");
-
-                // need to create Factory to make objects here;
-
+                aircraftFactory.newAircraft(split[0], split[1], Integer.parseInt(split[2]), Integer.parseInt(split[3]),
+                        Integer.parseInt(split[4])).registerTower(weatherTower);
             }
+            bufferedReader.close();
+            WeatherProvider weatherProvider = WeatherProvider.getProvider();
             while (counter-- > 0) {
                 weatherTower.changeWeather();
             }
+            printer.close();
         } catch (FileNotFoundException e) {
-            System.out.println("\u001B[34m" + "Simulator says: Can't write in simulation.txt");
+            System.out.println("\u002B[34m" + "Simulator says: Can't write in simulation.txt");
             return;
         } catch (IOException e) {
-            // There are must be buffereReader exceptions, but... I checked this in da Validator.
+            // There are must be bufferedReader exceptions, but... I checked this in da Validator.
             System.out.println("Simulator says: IO Exception. One on da million");
             return;
         }

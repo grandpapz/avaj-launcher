@@ -1,4 +1,4 @@
-package ru.school21.lelida.avaj_launcher.aircrafts;
+package lelida.avaj_launcher.aircraft;
 
 /* Base class for aircraft's. We will extend by our new types of Flyable objects */
 

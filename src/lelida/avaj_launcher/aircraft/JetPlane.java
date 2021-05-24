@@ -1,15 +1,15 @@
-package ru.school21.lelida.avaj_launcher.aircrafts;
+package lelida.avaj_launcher.aircraft;
 
-import ru.school21.lelida.avaj_launcher.Simulator;
-import ru.school21.lelida.avaj_launcher.WeatherTower;
+import lelida.avaj_launcher.Simulator;
+import lelida.avaj_launcher.WeatherTower;
 
 import java.util.HashMap;
 
-public class Jetplane extends Aircraft implements Flyable {
+public class JetPlane extends Aircraft implements Flyable {
 
     private WeatherTower weatherTower;
 
-    Jetplane(String name, Coordinates coordinates) {
+    JetPlane(String name, Coordinates coordinates) {
         super(name, coordinates);
     }
 
@@ -39,11 +39,11 @@ public class Jetplane extends Aircraft implements Flyable {
         message.put("FOG", "Fog doesn't matter, i've arduino navigation!");
         message.put("SNOW", "Let's make some snowman?!");
 
-        Simulator.printer.println("Jetplane#" + this.name + "(" + this.id + "):" + message.get(currentWeather));
+        Simulator.printer.println("JetPlane#" + this.name + "(" + this.id + "):" + message.get(currentWeather));
         if (this.coordinates.getHeight() <= 0){
-            Simulator.printer.println("Jetplane#" + this.name + "(" + this.id + ") landing.");
+            Simulator.printer.println("JetPlane#" + this.name + "(" + this.id + ") landing.");
             this.weatherTower.unregister(this);
-            Simulator.printer.println("Tower says: Jetplane#" + this.name + "(" + this.id + ")" + "unregistered to weather tower.");
+            Simulator.printer.println("Tower says: JetPlane#" + this.name + "(" + this.id + ")" + " unregistered to weather tower.");
         }
     }
 
@@ -51,6 +51,6 @@ public class Jetplane extends Aircraft implements Flyable {
     public void registerTower(WeatherTower weatherTower) {
         this.weatherTower = weatherTower;
         this.weatherTower.register(this);
-        Simulator.printer.println("Tower says: Jetplane#" + this.name + "(" + this.id + ")" + "registered to weather tower.");
+        Simulator.printer.println("Tower says: JetPlane#" + this.name + "(" + this.id + ")" + " registered to weather tower.");
     }
 }
