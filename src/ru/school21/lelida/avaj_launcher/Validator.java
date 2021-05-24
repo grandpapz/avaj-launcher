@@ -21,22 +21,23 @@ public class Validator {
                 types.add("helicopter");
                 types.add("baloon");
                 types.add("jetplane");
-               //if (!split[0].equalsIgnoreCase("helicopter") || !split[0].equalsIgnoreCase("baloon") || !split[0].toLowerCase().equals("jetplane")) {
                 if (!types.contains(split[0].toLowerCase())){
                     System.out.println(split[0]);
                     throw new AvajExeptions("Wrong type of Aircraft!");
                 }
                 try {
-                    Integer.parseInt(split[2]);
-                    Integer.parseInt(split[3]);
-                    Integer.parseInt(split[4]);
+                    if (Integer.parseInt(split[2]) < 0 || Integer.parseInt(split[3]) < 0 ||
+                            Integer.parseInt(split[4]) < 0){
+                        throw new AvajExeptions("Negative value on coordinates detected!");
+                    }
+
                 } catch (NumberFormatException e) {
-                    throw new AvajExeptions("Coordinats are not INTEGER!");
+                    throw new AvajExeptions("Coordinates are not INTEGER!");
                 }
             }
             bufferedReader.close();
         } catch (NumberFormatException e) {
-            throw new AvajExeptions("Numbers of weather changes are not INTEGER!");
+            throw new AvajExeptions("Wrong numbers of weather changes cycles!");
         } catch (FileNotFoundException e) {
             throw new AvajExeptions("File " + file + " not found!");
         } catch (IOException e) {

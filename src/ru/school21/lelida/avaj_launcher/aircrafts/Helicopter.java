@@ -34,13 +34,13 @@ public class Helicopter extends Aircraft implements Flyable {
 
         HashMap<String, String> message = new HashMap<>();
         message.put("SUN", "Ohhh Sunny weather is pretty fine!");
-        message.put("RAIN", "Rain rain go away!");
+        message.put("RAIN", "Rain, rain go away!");
         message.put("FOG", "Fog! i can't see anything!");
-        message.put("SNOW", "Let it snow!");
+        message.put("SNOW", "Let it snow, let it snow...");
 
         Simulator.printer.println("Helicopter#" + this.name + "(" + this.id + "):" + message.get(currentWeather));
         if (this.coordinates.getHeight() <= 0){
-            Simulator.printer.println("Helicopter#" + this.name + "(" + this.id + ") landing");
+            Simulator.printer.println("Helicopter#" + this.name + "(" + this.id + ") landing.");
             this.weatherTower.unregister(this);
             Simulator.printer.println("Tower says: Helicopter#" + this.name + "(" + this.id + ")" + "unregistered to weather tower.");
         }
