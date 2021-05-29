@@ -1,0 +1,138 @@
+Tower says: Baloon#B1(1) registered to weather tower.
+Tower says: Baloon#B2(2) registered to weather tower.
+Tower says: JetPlane#J1(3) registered to weather tower.
+Tower says: Helicopter#H1(4) registered to weather tower.
+Tower says: Helicopter#H2(5) registered to weather tower.
+Tower says: Helicopter#H3(6) registered to weather tower.
+Tower says: Baloon#B3(7) registered to weather tower.
+Tower says: JetPlane#J2(8) registered to weather tower.
+Tower says: Helicopter#H4(9) registered to weather tower.
+Baloon#B1(1):I'm going to get wet, senpai-tower!
+Baloon#B2(2):Frozen! The air inside me shrinks...
+JetPlane#J1(3):Let's make some snowman?!
+Helicopter#H1(4):Let it snow, let it snow...
+Helicopter#H2(5):Let it snow, let it snow...
+Helicopter#H3(6):Rain, rain go away!
+Baloon#B3(7):Lilac mist floating over us...
+JetPlane#J2(8):Fog doesn't matter, i've arduino navigation!
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+Baloon#B1(1):Where are my sunglasses?!
+Baloon#B2(2):Where are my sunglasses?!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+Helicopter#H1(4):Let it snow, let it snow...
+Helicopter#H1(4) landing.
+Tower says: Helicopter#H1(4) unregistered to weather tower.
+Helicopter#H3(6):Fog! i can't see anything!
+Baloon#B3(7):Frozen! The air inside me shrinks...
+JetPlane#J2(8):Let's make some snowman?!
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+Baloon#B1(1):Lilac mist floating over us...
+Baloon#B2(2):Lilac mist floating over us...
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+Helicopter#H2(5):Let it snow, let it snow...
+Helicopter#H3(6):Let it snow, let it snow...
+Baloon#B3(7):Where are my sunglasses?!
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+Baloon#B1(1):Frozen! The air inside me shrinks...
+Baloon#B2(2):Frozen! The air inside me shrinks...
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+Helicopter#H2(5):Let it snow, let it snow...
+Helicopter#H3(6):Let it snow, let it snow...
+Baloon#B3(7):Lilac mist floating over us...
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+Baloon#B1(1):Where are my sunglasses?!
+Baloon#B2(2):Where are my sunglasses?!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+Helicopter#H2(5):Let it snow, let it snow...
+Helicopter#H2(5) landing.
+Tower says: Helicopter#H2(5) unregistered to weather tower.
+Baloon#B3(7):Frozen! The air inside me shrinks...
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+Baloon#B1(1):Lilac mist floating over us...
+Baloon#B2(2):Lilac mist floating over us...
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+Helicopter#H3(6):Let it snow, let it snow...
+Baloon#B3(7):Where are my sunglasses?!
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+Baloon#B1(1):Frozen! The air inside me shrinks...
+Baloon#B1(1) landing.
+Tower says: Baloon#B1(1) unregistered to weather tower.
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+Helicopter#H3(6):Let it snow, let it snow...
+Baloon#B3(7):Lilac mist floating over us...
+JetPlane#J2(8):Let's make some snowman?!
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+Baloon#B2(2):Frozen! The air inside me shrinks...
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+Helicopter#H3(6):Let it snow, let it snow...
+Baloon#B3(7):Frozen! The air inside me shrinks...
+Baloon#B3(7) landing.
+Tower says: Baloon#B3(7) unregistered to weather tower.
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+Baloon#B2(2):Where are my sunglasses?!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+Helicopter#H3(6):Let it snow, let it snow...
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+Baloon#B2(2):Lilac mist floating over us...
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+Helicopter#H3(6):Let it snow, let it snow...
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+Baloon#B2(2):Frozen! The air inside me shrinks...
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+Helicopter#H3(6):Let it snow, let it snow...
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+Baloon#B2(2):Where are my sunglasses?!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+Helicopter#H3(6):Let it snow, let it snow...
+Helicopter#H3(6) landing.
+Tower says: Helicopter#H3(6) unregistered to weather tower.
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+Baloon#B2(2):Lilac mist floating over us...
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+Baloon#B2(2):Frozen! The air inside me shrinks...
+Baloon#B2(2) landing.
+Tower says: Baloon#B2(2) unregistered to weather tower.
+JetPlane#J2(8):Let's make some snowman?!
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+JetPlane#J2(8):Let's make some snowman?!
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+JetPlane#J2(8):Let's make some snowman?!
+Helicopter#H4(9):Ohhh Sunny weather is pretty fine!
+JetPlane#J1(3):Sun shining, the weather is sweet, yeah
+JetPlane#J2(8):Sun shining, the weather is sweet, yeah
+Helicopter#H4(9):Fog! i can't see anything!
